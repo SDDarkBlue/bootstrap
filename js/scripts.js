@@ -12,4 +12,13 @@ $(document).ready(function(){
             $("#carousel-button").children("span").removeClass("fa-play");
         }
     });
+
+    $("#loginModalButton").click(function() {
+        $("#loginModal").modal();
+    });
+
+    $("#reserveModalButton").click(function() {
+        $("#reserveModal").modal();
+    });
 });
+
